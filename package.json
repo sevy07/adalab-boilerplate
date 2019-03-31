@@ -14,6 +14,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint ."
   },
+  "pre-commit": [
+    "lint"
+  ],
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -27,6 +30,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "pre-commit": "^1.2.2",
     "prettier": "^1.16.4"
   }
 }
