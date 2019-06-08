@@ -14,6 +14,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+### How to use an API Key
+
+In order for your call to the API to work, you will need an API key.
+You can retrieve one for free [here](hrrps://developer.eventbrite.com).
+You then needd to create a `.env` file at the root of your project, and add the following variable: `REACT_APP_API_KEY=XXXXXXXXXXX`
+An example of `.env` would be:
+```
+# API KEY
+REACT_APP_API_KEY=XXXXXXXXXXX
+```
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
